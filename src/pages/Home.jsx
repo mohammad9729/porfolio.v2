@@ -67,9 +67,8 @@ export default function Home() {
                 transition={{ duration: 0.6, delay: 0.8 }}
               >
                 <a
-                  href="https://drive.google.com/file/d/16Zg26vEjP4SnpTFQcJsxEmVo7AZSch1I/view?usp=drivesdk"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="/Mohammad-Khan-FlowCV-Resume-20251209.pdf"
+                  download="Mohammad-Khan-Resume.pdf"
                   className="inline-block px-8 py-3 bg-cyan-400 border-2 border-indigo-500 text-indigo-800 font-semibold rounded-full hover:bg-indigo-500/10 hover:border-cyan-400 hover:text-cyan-400 transition-all duration-300"
                 >
                   Download Resume
