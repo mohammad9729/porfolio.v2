@@ -4,31 +4,36 @@ import { motion } from "framer-motion";
 function Project() {
   const projects = [
     {
-      title: "Next Gen Care NGO",
-      description:
-        "A comprehensive platform connecting donors with underprivileged communities to facilitate the provision of food, education, and basic necessities.",
-      tools: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MySQL"],
-      image:
-        "https://cdn.vectorstock.com/i/500p/36/80/low-poly-ngo-logo-minimalist-vector-58283680.jpg",
-      link: "https://nextgencare.netlify.app/",
-      highlights: [
-        {
-          title: "User Management System",
-          detail:
-            "Implemented secure authentication for donors, volunteers, and administrators with role-based access control.",
-        },
-        {
-          title: "Donation Processing",
-          detail:
-            "Developed intuitive donation forms with multiple payment options and real-time tracking.",
-        },
-        {
-          title: "Admin Dashboard",
-          detail:
-            "Created comprehensive analytics dashboard for administrators to monitor donations, volunteers, and impact metrics.",
-        },
-      ],
-    },
+      title: "Cloth Review Website",
+description:
+  "A responsive web application where users can browse clothing products, read reviews, and submit their own feedback with an easy-to-use interface.",
+tools: ["React", "Vite", "React Router", "JavaScript", "CSS"],
+image:
+  "image.png",
+link: "https://cloth-review.vercel.app/",
+highlights: [
+  {
+    title: "User Review System",
+    detail:
+      "Developed a dynamic review submission system where users can add reviews, ratings, and view existing feedback for each product.",
+  },
+  {
+    title: "Authentication with LocalStorage",
+    detail:
+      "Implemented login and registration using localStorage to manage user sessions without a backend server.",
+  },
+  {
+    title: "Modern UI Design",
+    detail:
+      "Created an animated, modern interface using gradient backgrounds, glassmorphism, and smooth transitions for an engaging user experience.",
+  },
+  {
+    title: "Product Browsing Interface",
+    detail:
+      "Designed responsive product cards and category-based browsing for improved user navigation.",
+  },
+],
+},
     {
       title: "Coffee Shop Website",
       description:
