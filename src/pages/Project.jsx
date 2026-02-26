@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import regalwalk from "../images/regalwalk.png";
 
 function Project() {
   const projects = [
@@ -35,28 +36,27 @@ highlights: [
 ],
 },
     {
-      title: "Coffee Shop Website",
+      title: "Regal Walk",
       description:
-        "A modern and responsive website for a coffee shop featuring interactive sections like menu, testimonials, and contact form built with Swiper.js and responsive design principles.",
-      tools: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-      image:
-        "https://5.imimg.com/data5/SELLER/Default/2021/9/CB/PR/TM/5504430/arabica-coffee-beans-roasted.jpg",
-      link: "https://mhodcoffeeshop.netlify.app/",
+        "A landing page built with HTML, CSS, Bootstrap and JavaScript showcasing the Regal Walk project — responsive layout and interactive components.",
+      tools: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+      image: regalwalk,
+      link: "https://regal-walk-nine.vercel.app/",
       highlights: [
         {
-          title: "Interactive Menu",
+          title: "Responsive Layout",
           detail:
-            "Designed an attractive coffee menu section with smooth scrolling and category filtering.",
+            "Built using Bootstrap to ensure a fully responsive experience across devices.",
         },
         {
-          title: "Swiper.js Testimonials",
+          title: "Interactive Sections",
           detail:
-            "Implemented a responsive testimonial slider using Swiper.js for dynamic customer feedback.",
+            "Implemented interactive UI elements with JavaScript for a smooth user experience.",
         },
         {
-          title: "Mobile-Responsive Design",
+          title: "Static Frontend Stack",
           detail:
-            "Built with responsiveness in mind to ensure optimal user experience across all devices.",
+            "Developed as a static frontend using standard web technologies (HTML/CSS/JS).",
         },
       ],
     },
