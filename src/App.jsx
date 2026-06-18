@@ -1,32 +1,26 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Nav from "./component/Nav";
 import Home from "./pages/Home";
-import Project from "./pages/Project";
-import Skills from "./pages/Skills";
+import ProjectPage from "./pages/Project";
+import SkillsPage from "./pages/Skills";
 import Footer from "./component/Footer";
-
+import Loader from "./component/Loader";
 
 function App() {
   return (
-   
-     
-      <div className="min-h-screen flex flex-col bg-gray-900 text-white">
-      
-        <Nav />
-
-      
-        <main className="flex-1 w-full">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/project" element={<Project />} />
-            <Route path="/Skills" element={<Skills />} />
-          </Routes>
-        </main>
-
-        <Footer />
-      </div>
-  
+    <div className="min-h-screen flex flex-col bg-slate-950 text-slate-100 selection:bg-cyan-500 selection:text-slate-950 font-sans">
+      <Loader />
+      <Nav />
+      <main className="flex-1 w-full">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/project" element={<ProjectPage />} />
+          <Route path="/skills" element={<SkillsPage />} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
   );
 }
 
