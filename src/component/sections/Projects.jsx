@@ -33,6 +33,20 @@ export default function Projects() {
         "Clean semantic markup for search visibility"
       ]
     }
+    ,
+    {
+      title: "MovieNest",
+      description: "MovieNest — a movie ticket booking website built with HTML, CSS and vanilla JavaScript. Features seat selection, showtimes, and a responsive booking flow.",
+      tools: ["HTML", "CSS", "JavaScript"],
+      image: "/MovieNest.png",
+      link: "https://nestmovis.netlify.app/",
+      github: "https://github.com/mohammad9729",
+      highlights: [
+        "Responsive booking UI for desktop & mobile",
+        "Seat selection and showtime scheduling",
+        "Vanilla JS-driven interactive experience"
+      ]
+    }
   ];
 
   return (
