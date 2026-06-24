@@ -64,7 +64,7 @@ export default function Hero() {
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-2"
             >
               <a
-                href="/Mohammad-Khan-FlowCV-Resume-20251209.pdf"
+                href="/Mohammad Khan.pdf"
                 download="Mohammad-Khan-Resume.pdf"
                 className="flex items-center justify-center gap-2 px-6 py-3.5 bg-gradient-to-r from-cyan-500 to-indigo-500 text-white font-semibold rounded-xl hover:from-cyan-400 hover:to-indigo-400 transition-all duration-300 shadow-lg shadow-indigo-500/20 active:scale-95"
               >
