@@ -10,7 +10,7 @@ export default function Projects() {
       title: "Cloth Review Website",
       description: "A responsive web application where users can browse clothing products, read reviews, and submit their own feedback with an easy-to-use interface.",
       tools: ["React", "Vite", "React Router", "JavaScript", "CSS"],
-      image: "/image.png",
+      image: "/Clothreview.png",
       link: "https://cloth-review.vercel.app/",
       github: "https://github.com/mohammad9729", // Add placeholder github link to look professional
       highlights: [

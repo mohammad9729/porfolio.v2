@@ -65,11 +65,11 @@ export default function About() {
             </p>
             <div className="pt-4 border-t border-gray-800 flex gap-6">
               <div>
-                <p className="text-3xl font-extrabold text-white">2+</p>
+                <p className="text-3xl font-extrabold text-white">0</p>
                 <p className="text-sm text-gray-400 font-medium">Years Experience</p>
               </div>
               <div>
-                <p className="text-3xl font-extrabold text-white">10+</p>
+                <p className="text-3xl font-extrabold text-white">5+</p>
                 <p className="text-sm text-gray-400 font-medium">Projects Built</p>
               </div>
             </div>
